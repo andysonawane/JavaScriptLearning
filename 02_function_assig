@@ -1,0 +1,42 @@
+function hobby() {
+    console.log("My Hobbies is Reading");
+}
+hobby();
+console.log("*****************");
+
+function favplace(){
+    console.log("My fav place is Kedarnath");
+}
+favplace();
+console.log("*****************");
+console.log("02");
+function personalDetails(firstName,lastName){
+    console.log(firstName,lastName);
+}
+personalDetails("Anand","Sonawane");
+console.log("-------------------------");
+
+console.log("03");
+function swapvalues(val1,val2){
+    console.log("before swapping", val1,val2);
+    var temp=val1;
+    val1=val2;
+    val2=temp;
+    console.log("after swapping",val1,val2);
+}
+swapvalues("virat","Anushka");
+swapvalues(1000,2000);
+console.log("-----------------");
+
+console.log("04");
+function addThreeValues(val1, val2, val3)
+{
+    console.log("after adding",val1 + val2  +val3);
+}
+addThreeValues(10.23,600,40);
+addThreeValues("Hello", "Good", "Morning");
+
+
+
+
+
